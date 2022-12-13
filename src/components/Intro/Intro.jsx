@@ -27,7 +27,7 @@ const Intro = () => {
 					<span>Sanjeev Gwachha</span>
 					<span>
 						Frontend Developer with 1 Year of experience in web designing
-						and development, producting the Quality work
+						and development, producting the Quality work.
 					</span>
 				</div>
 				<Link to="contact" smooth={true} spy={true}>
