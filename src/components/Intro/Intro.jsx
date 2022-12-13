@@ -19,7 +19,6 @@ const Intro = () => {
 	// context
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
-// no commits
 	return (
 		<div className="Intro" id="Intro">
 			<div className="i-left">
@@ -27,7 +26,7 @@ const Intro = () => {
 					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am Graduated Student</span>
 					<span>Sanjeev Gwachha</span>
 					<span>
-						Frontend Developer with 3 months of experience in web designing
+						Frontend Developer with 1 Year of experience in web designing
 						and development, producting the Quality work
 					</span>
 				</div>
@@ -57,11 +56,11 @@ const Intro = () => {
 					src={Me}
 					alt=""
 					height={"340rem"}
-					width={"280rem"}
+					width={"300rem"}
 				/>
 				{/* animation */}
 				<motion.img
-					initial={{ left: "-36%" }}
+					initial={{ left: "-38%" }}
 					whileInView={{ left: "-24%" }}
 					transition={transition}
 					src={glassesimoji}

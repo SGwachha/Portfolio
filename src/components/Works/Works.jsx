@@ -21,11 +21,15 @@ const Works = () => {
 					<span style={{ color: darkMode ? "white" : "" }}>
 						Works for All these
 					</span>
-					<span>Brands & Clients</span>
+					<span>Companies</span>
 					<spane>
-						Internship at Eydean Inc. as a Frontend Developer
+						3 months Internship at Eydean Inc. as a Frontend Developer
 						<br />
-						Junior Frontend Developer at CoreDreams Inovations
+						<br />
+						3 months Junior Frontend Developer at CoreDreams Inovations
+						<br />
+						<br />
+						Junior Frontend Developer at UpTechSys
 					</spane>
 					<Link to="contact" smooth={true} spy={true}>
 						<button className="button s-button">Hire Me</button>
