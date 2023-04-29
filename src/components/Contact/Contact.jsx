@@ -10,7 +10,6 @@ const Contact = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
-		// remove this commit
 		emailjs
 			.sendForm(
 				"service_nhuybni",
